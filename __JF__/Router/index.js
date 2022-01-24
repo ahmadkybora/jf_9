@@ -1,5 +1,5 @@
-import { Component } from "../Component";
-import { routes } from "../../router";
+import { Component } from "../../src/components/Component";
+import { routes } from "../../src/router";
 
 class Router extends Component{
     baseUrl = "http://localhost:8080";

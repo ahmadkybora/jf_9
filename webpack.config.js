@@ -14,6 +14,9 @@ module.exports = () => {
         },
         devServer: {
           historyApiFallback: true, // SPA
+          // بوسیله دو سرور میتوانید بر روی
+          // پورت خاصی گوش کنید
+          // port: 3001
         },
         module: {
             rules: [

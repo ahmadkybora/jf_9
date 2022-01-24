@@ -8,7 +8,11 @@ export class Users extends Component {
         super();
         this.setupShadow();
 
-        // console.log(this.template.querySelector('button'));
+        const b = this.template.querySelector('button').attributes;
+        console.log(b);
+        this.template.addEventListener("click", function() {
+            this.template.document.querySelector("p").innerHTML = "Hello World";
+        });
     }
 
     setupShadow() {

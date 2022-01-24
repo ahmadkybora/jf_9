@@ -1,6 +1,8 @@
 export class Component extends HTMLElement {
-    constructor() {
+    constructor(props) {
         super();
+        // this.props = props;
+
     }
 
     // پارامتر اول برای نام کامپوننت
